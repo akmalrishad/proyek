@@ -1,3 +1,4 @@
+// akmal
 #include<stdio.h>
 #include<stdlib.h>
 #include<string.h>
@@ -59,20 +60,20 @@ void gotoxy(int x, int y) //modul untuk memfungsikan fungsi gotoxy
 
 void xo(){
 	warnateks(LIGHT_GREEN);
-	gotoxy(9,8); printf("€€       €€ \n");
-	gotoxy(9,9); printf("  €€   €€ \n");
-	gotoxy(9,10); printf("    €€€ \n");
-	gotoxy(9,11); printf("    €€€ \n");
-	gotoxy(9,12); printf("  €€   €€ \n");
-	gotoxy(9,13); printf("€€       €€ \n");	
+	gotoxy(9,8); printf("√õ√õ       √õ√õ \n");
+	gotoxy(9,9); printf("  √õ√õ   √õ√õ \n");
+	gotoxy(9,10); printf("    √õ√õ√õ \n");
+	gotoxy(9,11); printf("    √õ√õ√õ \n");
+	gotoxy(9,12); printf("  √õ√õ   √õ√õ \n");
+	gotoxy(9,13); printf("√õ√õ       √õ√õ \n");	
 	gotoxy(9,15);printf(" COMPUTER \n");
 	warnateks(YELLOW);
-	gotoxy(61,8); printf("    €€€€  \n");
-	gotoxy(61,9); printf("  €€    €€ \n");
-	gotoxy(61,10); printf("  €€    €€ \n");
-	gotoxy(61,11); printf("  €€    €€ \n");
-	gotoxy(61,12); printf("  €€    €€ \n");
-	gotoxy(61,13); printf("    €€€€ \n");
+	gotoxy(61,8); printf("    √õ√õ√õ√õ  \n");
+	gotoxy(61,9); printf("  √õ√õ    √õ√õ \n");
+	gotoxy(61,10); printf("  √õ√õ    √õ√õ \n");
+	gotoxy(61,11); printf("  √õ√õ    √õ√õ \n");
+	gotoxy(61,12); printf("  √õ√õ    √õ√õ \n");
+	gotoxy(61,13); printf("    √õ√õ√õ√õ \n");
 	gotoxy(61,15);printf("    USER   \n");	
 }
 
@@ -136,34 +137,34 @@ void tampilan_board_akhir(const int *board) //menampilkan kondisi array board te
 void judul()//sebagai tampilan awal program
 { 
 	warnateks(LIGHT_BLUE);
-	gotoxy(8,1); printf("  €€€€€€€€€€  €€   €€€€€             €€€€€€€€€€   €€€€    €€€€€ \n");
-	printf("              €€      €€  €€                     €€      €€  €€  €€     \n");
-	printf("              €€      €€  €€                     €€      €€  €€  €€     \n");
-	printf("              €€      €€  €€                     €€      €€€€€€  €€     \n");
-	printf("              €€      €€  €€                     €€      €€  €€  €€     \n");
-	printf("              €€      €€   €€€€€                 €€      €€  €€   €€€€€ \n \n\n\n");
+	gotoxy(8,1); printf("  √õ√õ√õ√õ√õ√õ√õ√õ√õ√õ  √õ√õ   √õ√õ√õ√õ√õ             √õ√õ√õ√õ√õ√õ√õ√õ√õ√õ   √õ√õ√õ√õ    √õ√õ√õ√õ√õ \n");
+	printf("              √õ√õ      √õ√õ  √õ√õ                     √õ√õ      √õ√õ  √õ√õ  √õ√õ     \n");
+	printf("              √õ√õ      √õ√õ  √õ√õ                     √õ√õ      √õ√õ  √õ√õ  √õ√õ     \n");
+	printf("              √õ√õ      √õ√õ  √õ√õ                     √õ√õ      √õ√õ√õ√õ√õ√õ  √õ√õ     \n");
+	printf("              √õ√õ      √õ√õ  √õ√õ                     √õ√õ      √õ√õ  √õ√õ  √õ√õ     \n");
+	printf("              √õ√õ      √õ√õ   √õ√õ√õ√õ√õ                 √õ√õ      √õ√õ  √õ√õ   √õ√õ√õ√õ√õ \n \n\n\n");
 	
-	printf("      		           €€€€€€€€€€  €€€€€   €€€€€ \n");
-	printf("	 	               €€     €€   €€  €     \n");
-	printf("		               €€     €€   €€  €€€€€ \n");
-	printf("		               €€     €€   €€  € \n");
-	printf("                               €€     €€   €€  €     \n");
-	printf("		               €€      €€€€€   €€€€€ \n");
+	printf("      		           √õ√õ√õ√õ√õ√õ√õ√õ√õ√õ  √õ√õ√õ√õ√õ   √õ√õ√õ√õ√õ \n");
+	printf("	 	               √õ√õ     √õ√õ   √õ√õ  √õ     \n");
+	printf("		               √õ√õ     √õ√õ   √õ√õ  √õ√õ√õ√õ√õ \n");
+	printf("		               √õ√õ     √õ√õ   √õ√õ  √õ \n");
+	printf("                               √õ√õ     √õ√õ   √õ√õ  √õ     \n");
+	printf("		               √õ√õ      √õ√õ√õ√õ√õ   √õ√õ√õ√õ√õ \n");
 	
 	warnateks(LIGHT_GREEN);
-	gotoxy(9,18); printf("€€       €€ \n");
-	gotoxy(9,19); printf("  €€   €€ \n");
-	gotoxy(9,20); printf("    €€€ \n");
-	gotoxy(9,21); printf("    €€€ \n");
-	gotoxy(9,22); printf("  €€   €€ \n");
-	gotoxy(9,23); printf("€€       €€ \n");	
+	gotoxy(9,18); printf("√õ√õ       √õ√õ \n");
+	gotoxy(9,19); printf("  √õ√õ   √õ√õ \n");
+	gotoxy(9,20); printf("    √õ√õ√õ \n");
+	gotoxy(9,21); printf("    √õ√õ√õ \n");
+	gotoxy(9,22); printf("  √õ√õ   √õ√õ \n");
+	gotoxy(9,23); printf("√õ√õ       √õ√õ \n");	
 	warnateks(YELLOW);
-	gotoxy(61,18); printf("    €€€€  \n");
-	gotoxy(61,19); printf("  €€    €€ \n");
-	gotoxy(61,20); printf("  €€    €€ \n");
-	gotoxy(61,21); printf("  €€    €€ \n");
-	gotoxy(61,22); printf("  €€    €€ \n");
-	gotoxy(61,23); printf("    €€€€ \n");	
+	gotoxy(61,18); printf("    √õ√õ√õ√õ  \n");
+	gotoxy(61,19); printf("  √õ√õ    √õ√õ \n");
+	gotoxy(61,20); printf("  √õ√õ    √õ√õ \n");
+	gotoxy(61,21); printf("  √õ√õ    √õ√õ \n");
+	gotoxy(61,22); printf("  √õ√õ    √õ√õ \n");
+	gotoxy(61,23); printf("    √õ√õ√õ√õ \n");	
 }
 
 void kecepatan(float seconds){
@@ -177,11 +178,11 @@ void loading()//modul untuk menapilkan tampilan loading
 	int x = 28, y = 13, n;
 	warnateks(WHITE);
 	gotoxy(x,20); printf("       Please Wait");
-	gotoxy(x,21);  printf("…ÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕª");
-	gotoxy(x,22);printf("∫                        ∫");
-	gotoxy(x,23);printf("»ÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕº");
+	gotoxy(x,21);  printf("√â√ç√ç√ç√ç√ç√ç√ç√ç√ç√ç√ç√ç√ç√ç√ç√ç√ç√ç√ç√ç√ç√ç√ç√ç¬ª");
+	gotoxy(x,22);printf("¬∫                        ¬∫");
+	gotoxy(x,23);printf("√à√ç√ç√ç√ç√ç√ç√ç√ç√ç√ç√ç√ç√ç√ç√ç√ç√ç√ç√ç√ç√ç√ç√ç√ç¬º");
 	for(n=29;n<=50;n++){
-		gotoxy(n,22);printf("€");
+		gotoxy(n,22);printf("√õ");
 		kecepatan(0.1);
 	};
 }
@@ -231,15 +232,15 @@ void menu() //modul untuk menampilkan main menu dari program
 	int pilih_menu, i = 28;
 	judul();
 	warnateks(WHITE);
-	gotoxy(i,18); printf(" …ÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕª\n");
-   	gotoxy(i,19);printf(" ∫      MAIN MENU        ∫\n");
-   	gotoxy(i,20);printf(" ∫                       ∫\n");
-   	gotoxy(i,21);printf(" ∫   [1] PLAY NOW !      ∫\n");
-   	gotoxy(i,22);printf(" ∫   [2] INSTRUCTIONS    ∫\n");
-   	gotoxy(i,23);printf(" ∫   [3] THE CREATOR     ∫\n");
-   	gotoxy(i,24);printf(" ∫   [0] Exit            ∫\n");
-   	gotoxy(i,25);printf(" ∫                       ∫\n");
-   	gotoxy(i,26);printf(" »ÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕÕº\n");
+	gotoxy(i,18); printf(" √â√ç√ç√ç√ç√ç√ç√ç√ç√ç√ç√ç√ç√ç√ç√ç√ç√ç√ç√ç√ç√ç√ç√ç¬ª\n");
+   	gotoxy(i,19);printf(" ¬∫      MAIN MENU        ¬∫\n");
+   	gotoxy(i,20);printf(" ¬∫                       ¬∫\n");
+   	gotoxy(i,21);printf(" ¬∫   [1] PLAY NOW !      ¬∫\n");
+   	gotoxy(i,22);printf(" ¬∫   [2] INSTRUCTIONS    ¬∫\n");
+   	gotoxy(i,23);printf(" ¬∫   [3] THE CREATOR     ¬∫\n");
+   	gotoxy(i,24);printf(" ¬∫   [0] Exit            ¬∫\n");
+   	gotoxy(i,25);printf(" ¬∫                       ¬∫\n");
+   	gotoxy(i,26);printf(" √à√ç√ç√ç√ç√ç√ç√ç√ç√ç√ç√ç√ç√ç√ç√ç√ç√ç√ç√ç√ç√ç√ç√ç¬º\n");
 	gotoxy(i,28);printf("    Choose :            \n");
    	gotoxy(41,28);scanf("%d",&pilih_menu);
    	switch(pilih_menu){
