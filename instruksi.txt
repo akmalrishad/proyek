@@ -1,0 +1,19 @@
+                                    лл       лл                                                                       лл   лл 
+                                        ллл	
+                                        ллл 
+                                      лл   лл 
+                                    лл       лл	
+                                     Komputer
+
+		1.Pemain diberi simbol O dan Komputer X
+		2.Pemain akan mengisi kotak dari 1-25
+		3.Pemain akan menang apabila 4 se-simbol sejajar 
+		  membentuk secara vertikal,horizontal ataupun diagonal.
+
+ 	                               лллл
+                                     лл    лл 
+                                     лл    лл 
+                                     лл    лл 
+                                     лл    лл 
+                                       лллл
+                                       User 
